@@ -67,3 +67,22 @@ https://chatgpt.com/share/68c871e4-f5d8-8009-a2d7-4fa347ff053c
 
 ## References
 https://getemoji.com/
+
+
+
+# Developer Journal – Lab 3: Implementing Classes
+
+**What I built**
+I created a fully functional Tic Tac Toe game in Java using three classes: `Board`, `Console`, and `Main`. The game includes a menu, rules display, player name input, and flexible move entry (space or comma). It checks for win and draw conditions and displays the board after each move.
+
+**What I learned**
+- How to structure a Java project using packages (`lab3.game`, `lab3.ui`)
+- How to use arrays to represent a game board and check for win conditions
+- How to use loops and conditionals to manage game flow
+- How to split user input using regular expressions (`split("[,\\s]+")`)
+- How to write beginner-friendly comments and JavaDoc-style documentation
+
+**Problems I overcame**
+- Input validation: I initially only accepted moves like `1 1`, but realized players might type `1,1`. I updated the code to accept both formats.
+- Win detection: I had to carefully check rows, columns, and diagonals to ensure the game ends correctly.
+- Commenting: I wanted my comments to reflect my learning process, so I rewrote them in a beginner-friendly style.
